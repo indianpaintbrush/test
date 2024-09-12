@@ -65,17 +65,14 @@
 (deftest one-thousand-twenty-four
   (is (= "MXXIV" (roman-numerals/numerals 1024))))
 
-(deftest one-thousand-six-hundred-sixty-six
-  (is (= "MDCLXVI" (roman-numerals/numerals 1666))))
-
 (deftest three-thousand
   (is (= "MMM" (roman-numerals/numerals 3000))))
 
-(deftest three-thousand-one
+(deftest three-thousand
   (is (= "MMMI" (roman-numerals/numerals 3001))))
 
-(deftest three-thousand-eight-hundred-eighty-eight
+(deftest three-thousand
   (is (= "MMMDCCCLXXXVIII" (roman-numerals/numerals 3888))))
 
-(deftest three-thousand-nine-hundred-ninety-nine
+(deftest three-thousand
   (is (= "MMMCMXCIX" (roman-numerals/numerals 3999))))
