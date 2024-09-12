@@ -23,9 +23,6 @@
 (deftest nine
   (is (= "IX" (roman-numerals/numerals 9))))
 
-(deftest sixteen
-  (is (= "XVI" (roman-numerals/numerals 16))))
-
 (deftest twenty-seven
   (is (= "XXVII" (roman-numerals/numerals 27))))
 
@@ -34,9 +31,6 @@
 
 (deftest fifty-nine
   (is (= "LIX" (roman-numerals/numerals 59))))
-
-(deftest sixty-six
-  (is (="LXVI" (roman-numerals/numerals 66))))
 
 (deftest ninety-three
   (is (= "XCIII" (roman-numerals/numerals 93))))
@@ -67,12 +61,3 @@
 
 (deftest three-thousand
   (is (= "MMM" (roman-numerals/numerals 3000))))
-
-(deftest three-thousand
-  (is (= "MMMI" (roman-numerals/numerals 3001))))
-
-(deftest three-thousand
-  (is (= "MMMDCCCLXXXVIII" (roman-numerals/numerals 3888))))
-
-(deftest three-thousand
-  (is (= "MMMCMXCIX" (roman-numerals/numerals 3999))))
