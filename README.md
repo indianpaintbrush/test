@@ -6,7 +6,9 @@ more here too
 extra edit, edited
 
 test
-more suggestions
+more suggestions, an edit
+
+test
 
 another suggestion
 add something here too
